@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Andres Salazar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html">AS</a>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- =========================
+       CONTACT PAGE
+  ========================== -->
+  <main class="contact-page">
+
+    <!-- CONTACT HERO -->
+    <section class="contact-hero">
+      <div class="contact-hero-inner">
+
+        <p class="contact-label">Get In Touch</p>
+
+        <h1>Let’s build something practical, technical, and useful.</h1>
+
+        <p class="contact-summary">
+          I am open to engineering opportunities, project collaborations, freelance work, and technical
+          support related to CAD design, prototyping, manufacturing, documentation, and engineering workflows.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACT CONTENT -->
+    <section class="contact-section">
+      <div class="contact-grid">
+
+        <!-- LEFT SIDE: CONTACT INFO -->
+        <div class="contact-info-card">
+          <p class="contact-kicker">Contact Information</p>
+          <h2>Reach out for hiring, freelance work, or project questions.</h2>
+
+          <p>
+            If you are interested in hiring me, collaborating on a project, or need help with a technical
+            task, feel free to send me a message. I can support work involving CAD modeling, design review,
+            engineering drawings, prototyping planning, manufacturing workflows, and technical documentation.
+          </p>
+
+          <div class="contact-info-list">
+
+            <div>
+              <span>Email</span>
+              <a href="mailto:andressalaz.tx@gmail.com">andressalaz.tx@gmail.com</a>
+            </div>
+
+            <div>
+              <span>Phone</span>
+              <a href="tel:+18047098138">+1 (804) 709-8138</a>
+            </div>
+
+            <div>
+              <span>LinkedIn</span>
+              <a href="#" target="_blank">Add your LinkedIn link here</a>
+            </div>
+
+            <div>
+              <span>Location</span>
+              <p>Richmond, VA / Open to opportunities</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- RIGHT SIDE: CONTACT FORM -->
+        <div class="contact-form-card">
+          <p class="contact-kicker">Send a Message</p>
+          <h2>Contact Form</h2>
+
+          <!-- 
+            FORMSPREE FORM
+            1. Create a form in Formspree.
+            2. Replace YOUR_FORM_ID_HERE with your real Formspree form ID.
+            Example: https://formspree.io/f/abcdwxyz
+          -->
+          <form
+            action="https://formspree.io/f/mbdwvlqo"
+            method="POST"
+            class="contact-form"
+          >
+
+            <!-- Email subject you will receive -->
+            <input type="hidden" name="_subject" value="New Portfolio Contact - Andres Salazar Website" />
+
+            <!-- Optional redirect after submission -->
+            <!-- 
+            <input type="hidden" name="_next" value="thank-you.html" />
+            -->
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your.email@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Reason for Contact</label>
+              <select id="topic" name="reason_for_contact" required>
+                <option value="">Select one</option>
+                <option value="Hiring Opportunity">Hiring Opportunity</option>
+                <option value="Freelance Project">Freelance Project</option>
+                <option value="CAD / Design Help">CAD / Design Help</option>
+                <option value="Project Collaboration">Project Collaboration</option>
+                <option value="General Question">General Question</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="7"
+                placeholder="Tell me a little about the opportunity, project, or question..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact-submit-btn">Send Message</button>
+
+          </form>
+
+          <p class="contact-form-note">
+            This form sends your message directly to my email. You can also email me directly at
+            <strong>andressalaz.tx@gmail.com</strong>.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- FREELANCE / OPEN TO WORK SECTION -->
+    <section class="freelance-section">
+      <div class="freelance-inner">
+
+        <p class="contact-label">Freelance & Open to Work</p>
+
+        <h2>Available for technical support and engineering-related projects.</h2>
+
+        <p>
+          I am open to freelance work and project-based support involving CAD modeling, SolidWorks parts
+          and assemblies, design documentation, 3D printing preparation, CNC/laser manufacturing planning,
+          engineering drawings, and technical presentation material.
+        </p>
+
+        <div class="freelance-tags">
+          <span>CAD Modeling</span>
+          <span>SolidWorks</span>
+          <span>Engineering Drawings</span>
+          <span>Prototyping</span>
+          <span>Manufacturing Support</span>
+          <span>Technical Documentation</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+<footer class="site-footer">
+  <p>© 2026 Andres Salazar. All rights reserved.</p>
+</footer>
+</body>
+</html>
