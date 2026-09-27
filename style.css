@@ -5299,3 +5299,696 @@
   font-size: 14px;
   letter-spacing: 0.02em;
 }
+
+
+/* =====================================================
+   TEXAS METAL WORKS PROJECT
+   Featured — Design & Manufacturing
+===================================================== */
+
+.tmw-project {
+  background: #ffffff;
+  color: #111111;
+}
+
+/* TMW HERO */
+
+.tmw-hero {
+  padding: 110px 0 80px;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(91, 160, 193, 0.22),
+      transparent 40%
+    ),
+    linear-gradient(180deg, #101c2a 0%, #203749 100%);
+  color: #ffffff;
+}
+
+.tmw-hero-inner {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+}
+
+.tmw-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #9ed4f3;
+  margin-bottom: 14px;
+  font-weight: 800;
+}
+
+.tmw-hero h1 {
+  max-width: 1000px;
+  font-size: 56px;
+  line-height: 1.08;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.tmw-summary {
+  max-width: 950px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #d5e4ef;
+  margin-bottom: 30px;
+}
+
+/* META INFORMATION */
+
+.tmw-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.tmw-meta-item {
+  min-width: 200px;
+  padding: 14px 18px;
+  border: 1px solid rgba(158, 212, 243, 0.28);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tmw-meta-title {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: #9ed4f3;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.tmw-meta-value {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* PROJECT TAGS */
+
+.tmw-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tmw-tags span {
+  display: inline-block;
+  padding: 9px 14px;
+  border: 1px solid rgba(158, 212, 243, 0.3);
+  border-radius: 999px;
+  color: #e4f2fc;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* OVERVIEW */
+
+.tmw-overview-section {
+  padding: 80px 0;
+  background: #f4f7fa;
+}
+
+.tmw-overview-grid {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.tmw-overview-card {
+  padding: 32px;
+  border-radius: 22px;
+  border: 1px solid #dce6ed;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+}
+
+.tmw-feature-card {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #e8f2f8 100%
+  );
+}
+
+.tmw-kicker {
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #326b91;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.tmw-overview-card h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #162b3d;
+  margin-bottom: 16px;
+}
+
+.tmw-overview-card p {
+  color: #405366;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* MANUFACTURING WORKFLOW */
+
+.tmw-process-section {
+  padding: 85px 0;
+  background: #ffffff;
+}
+
+.tmw-section-header {
+  width: min(1300px, 92%);
+  margin: 0 auto 36px;
+}
+
+.tmw-section-header h2 {
+  font-size: 42px;
+  line-height: 1.15;
+  color: #162b3d;
+  margin-bottom: 14px;
+}
+
+.tmw-section-header > p:last-child {
+  max-width: 850px;
+  color: #405366;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.tmw-process-section .tmw-label {
+  color: #326b91;
+}
+
+.tmw-process-flow {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.tmw-process-flow span {
+  padding: 13px 17px;
+  background: #203749;
+  color: #ffffff;
+  border: 1px solid #7cb1d1;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* MANUFACTURING PROCESS CARDS */
+
+.tmw-workareas-section {
+  padding: 85px 0;
+  background: #f4f7fa;
+}
+
+.tmw-workareas-grid {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tmw-work-card {
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dce6ed;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.tmw-work-card h3 {
+  color: #162b3d;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.tmw-work-card p {
+  color: #405366;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ENGINEERING TAKEAWAYS */
+
+.tmw-takeaways-section {
+  padding: 85px 0;
+  background: #142635;
+  color: #ffffff;
+}
+
+.tmw-takeaways-inner {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.tmw-takeaways-inner h2 {
+  font-size: 42px;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.tmw-takeaways-inner > p {
+  max-width: 950px;
+  color: #d5e4ef;
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.tmw-takeaways-inner .tmw-note {
+  margin-top: 28px;
+  padding-left: 18px;
+  border-left: 3px solid #9ed4f3;
+  color: #a9c5d8;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .tmw-workareas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .tmw-hero {
+    padding: 75px 0 55px;
+  }
+
+  .tmw-hero h1 {
+    font-size: 40px;
+  }
+
+  .tmw-summary {
+    font-size: 17px;
+  }
+
+  .tmw-overview-grid,
+  .tmw-workareas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tmw-meta-item {
+    flex: 1 1 100%;
+  }
+
+  .tmw-section-header h2,
+  .tmw-takeaways-inner h2 {
+    font-size: 30px;
+  }
+
+  .tmw-overview-section,
+  .tmw-process-section,
+  .tmw-workareas-section,
+  .tmw-takeaways-section {
+    padding: 60px 0;
+  }
+}
+
+
+/* =====================================================
+   TMW VISUAL FIX
+   Add at the very END of style.css
+===================================================== */
+
+/* HERO LAYOUT */
+
+#TMW-project .tmw-hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: 36px;
+}
+
+#TMW-project .tmw-hero-copy,
+#TMW-project .tmw-hero-visual {
+  min-width: 0;
+}
+
+#TMW-project .tmw-hero-visual {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #102738;
+  border: 1px solid #42657a;
+  border-radius: 18px;
+}
+
+#TMW-project .tmw-hero-visual > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 430px;
+}
+
+#TMW-project .tmw-visual-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  color: #b9dce9;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #42657a;
+}
+
+#TMW-project .tmw-hero-visual figcaption {
+  padding: 14px 18px;
+  color: #bed7e4;
+  font-size: 12px;
+}
+
+
+/* ENGINEERING REVIEW PANEL */
+
+#TMW-project .tmw-engineering-panel {
+  width: min(1300px, 92%);
+  margin: 30px auto 0;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .85fr);
+  align-items: center;
+  gap: 32px;
+  background: #e5eef4;
+  border: 1px solid #cbdde8;
+  border-radius: 20px;
+}
+
+#TMW-project .tmw-engineering-panel > div {
+  min-width: 0;
+}
+
+#TMW-project .tmw-engineering-panel h2 {
+  color: #162b3d;
+  font-size: clamp(25px, 2.7vw, 36px);
+  line-height: 1.2;
+  margin: 10px 0 16px;
+}
+
+#TMW-project .tmw-engineering-panel p {
+  color: #405366;
+  line-height: 1.75;
+}
+
+#TMW-project .tmw-engineering-diagram {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #c0d2df;
+  border-radius: 12px;
+}
+
+#TMW-project .tmw-diagram-heading,
+#TMW-project .tmw-diagram-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px;
+  color: #416a83;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#TMW-project .tmw-diagram-sheet {
+  padding: 15px;
+  min-width: 0;
+  background-image:
+    linear-gradient(#edf3f7 1px, transparent 1px),
+    linear-gradient(90deg, #edf3f7 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+#TMW-project .tmw-diagram-sheet svg {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  max-height: 250px;
+  margin: 0 auto;
+}
+
+
+/* MANUFACTURING WORKFLOW */
+
+#TMW-project .tmw-visual-process {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+#TMW-project .tmw-process-step {
+  min-width: 0;
+  padding: 20px 16px;
+  background: #f1f6fa;
+  border: 1px solid #d8e5ed;
+  border-top: 3px solid #376b8b;
+  border-radius: 12px;
+}
+
+#TMW-project .tmw-step-number {
+  display: block;
+  margin-bottom: 10px;
+  color: #376b8b;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+#TMW-project .tmw-step-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 105px;
+  margin-bottom: 14px;
+  color: #376b8b;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#TMW-project .tmw-step-symbol svg {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  height: 95px;
+  max-height: 95px;
+}
+
+#TMW-project .tmw-process-step h3 {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #162b3d;
+  margin: 0 0 8px;
+}
+
+#TMW-project .tmw-process-step p {
+  color: #536878;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+/* MANUFACTURING CARDS */
+
+#TMW-project .tmw-workareas-section .tmw-label,
+#TMW-project .tmw-gallery-section .tmw-label {
+  color: #326b91;
+}
+
+#TMW-project .tmw-work-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+#TMW-project .tmw-card-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+  padding: 14px 20px;
+  background: linear-gradient(145deg, #102738, #24485d);
+}
+
+#TMW-project .tmw-art-label {
+  align-self: flex-start;
+  color: #9ed4f3;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#TMW-project .tmw-card-art svg {
+  display: block;
+  width: 100%;
+  max-width: 290px;
+  height: 140px;
+  max-height: 140px;
+}
+
+#TMW-project .tmw-card-copy {
+  padding: 24px;
+}
+
+
+/* PHOTO GALLERY */
+
+#TMW-project .tmw-gallery-section {
+  padding: 85px 0;
+  background: #eaf0f5;
+}
+
+#TMW-project .tmw-gallery-grid {
+  width: min(1300px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+#TMW-project .tmw-gallery-item {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  background: white;
+  border-radius: 15px;
+}
+
+#TMW-project .tmw-gallery-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  overflow: hidden;
+  background: #102738;
+}
+
+#TMW-project .tmw-gallery-media svg {
+  width: 85%;
+  max-width: 300px;
+  height: 175px;
+}
+
+#TMW-project .tmw-gallery-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#TMW-project .tmw-gallery-media img[hidden] {
+  display: none;
+}
+
+#TMW-project .tmw-gallery-item figcaption {
+  padding: 20px 24px;
+}
+
+#TMW-project .tmw-gallery-item figcaption span {
+  color: #326b91;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#TMW-project .tmw-gallery-item figcaption h3 {
+  color: #162b3d;
+  margin: 8px 0 0;
+}
+
+
+/* ENGINEERING TAKEAWAYS */
+
+#TMW-project .tmw-takeaway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+}
+
+#TMW-project .tmw-takeaway-item {
+  min-width: 0;
+  padding: 24px;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(158,212,243,.25);
+  border-radius: 14px;
+}
+
+#TMW-project .tmw-takeaway-item > span {
+  display: block;
+  color: #9ed4f3;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+#TMW-project .tmw-takeaway-item h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+#TMW-project .tmw-takeaway-item p {
+  color: #c1d7e4;
+  line-height: 1.75;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+  #TMW-project .tmw-hero-layout,
+  #TMW-project .tmw-engineering-panel {
+    grid-template-columns: 1fr;
+  }
+
+  #TMW-project .tmw-hero-visual {
+    max-width: 680px;
+  }
+
+  #TMW-project .tmw-visual-process {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  #TMW-project .tmw-visual-process,
+  #TMW-project .tmw-gallery-grid,
+  #TMW-project .tmw-takeaway-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  #TMW-project .tmw-visual-process,
+  #TMW-project .tmw-gallery-grid,
+  #TMW-project .tmw-takeaway-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #TMW-project .tmw-engineering-panel {
+    padding: 20px;
+  }
+}
